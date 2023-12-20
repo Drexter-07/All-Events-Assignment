@@ -50,7 +50,7 @@ Welcome to the Event Management App! This app allows users to log in using their
 - Styling: React-Bootstrap for faster implementation
 - Database: MySQL
 
-## Getting Started
+## Getting Started  [How To Run]
 
 1. Clone the repository.
 2. Install dependencies.
@@ -59,9 +59,17 @@ Welcome to the Event Management App! This app allows users to log in using their
 
 ```bash
 git clone [repository-url]
-cd event-management-app
+cd All-Events-Assignment
+// For React App
+cd event-frontend
 npm install
 npm start
+// For backend PHP
+cd event-backend
+php artisan serve
+
+// Put the Database File into the Xampp MySQL Folder to get the existing data, or you can enter new data and check the working
+
 ```
 ---
 # Screenshots :
